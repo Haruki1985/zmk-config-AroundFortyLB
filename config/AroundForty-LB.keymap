@@ -19,35 +19,15 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
-        alphabet {
-            bindings = <&to 1>;
+        symbol {
+            bindings = <&to 3>;
             key-positions = <34 24>;
             timeout-ms = <0>;
+        };
+
+        function {
+            bindings = <&to 5>;
+            key-positions = <35 25>;
         };
     };
 
@@ -103,10 +83,10 @@
 
         Win-Default_Layer {
             bindings = <
-&kp Q             &kp W         &kp E  &kp R  &kp T          &kp Y                        &kp U          &kp I        &kp O      &kp P
-&kp A             &kp S         &kp D  &kp F  &kp G          &kp H                        &kp J          &kp K        &kp L      &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C  &kp V  &kp B          &kp LANGUAGE_2               &kp AT_SIGN    &kp N        &kp M      &kp COMMA     &kp PERIOD  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_GUI                &lt 3 SPACE    &lt_to_layer_0 7 LANGUAGE_1  &kp BACKSPACE  &lt 5 ENTER  &kp SPACE  &kp LEFT_ALT  &to 7       &kp DEL
+&kp Q      &kp W     &kp E  &kp R  &kp T        &kp Y      &kp U     &kp I      &kp O            &kp P
+&kp A      &kp S     &kp D  &kp F  &kp G        &kp H      &kp J     &kp K      &kp L            &kp DELETE
+&kp Z      &kp X     &kp C  &kp V  &kp B        &kp RSHFT  &kp TAB   &kp N      &kp M            &kp COMMA   &kp PERIOD  &kp BACKSPACE
+&kp LCTRL  &kp LALT                &kp LANG1    &kp SPACE  &kp LEFT  &kp LANG2  &kp RIGHT_ARROW  &to 1       &kp SLASH   &kp ENTER
             >;
 
             sensor-bindings =
@@ -142,10 +122,10 @@
 
         Mac-Common_Layer {
             bindings = <
-&kp ESCAPE      &trans        &trans       &kp LG(UP_ARROW)    &trans                 &kp LG(W)    &kp LG(LEFT_ARROW)  &mkp MB3         &kp LG(RIGHT_ARROW)  &kp HOME
-&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)    &kp LG(TAB)  &mkp MB1            &kp UP_ARROW     &mkp MB2             &kp PAGE_UP
-&kp LEFT_SHIFT  &trans        &trans       &kp LG(DOWN_ARROW)  &trans                 &trans       &kp LG(T)           &kp LS(LG(TAB))  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LCTRL       &trans                                         &trans                 &trans       &trans              &trans           &trans               &trans          &trans           &kp END
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4        &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_0
+&kp TAB         &kp LEFT_GUI  &kp LS(TAB)   &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)    &kp LG(TAB)   &mkp MB1      &kp UP_ARROW     &mkp MB2        &kp PAGE_UP
+&kp LEFT_SHIFT  &trans        &trans        &kp LG(DOWN_ARROW)  &trans                 &trans        &kp LG(T)     &kp LS(LG(TAB))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LCTRL       &trans                                          &trans                 &trans        &trans        &trans           &trans          &trans          &trans           &kp END
             >;
 
             sensor-bindings =
@@ -155,10 +135,10 @@
 
         Win-Common_Layer {
             bindings = <
-&kp ESCAPE      &trans        &trans       &kp LG(UP_ARROW)    &trans                 &kp LC(W)        &kp LA(LEFT_ARROW)  &mkp MB3           &kp LA(RIGHT_ARROW)  &kp HOME
-&kp TAB         &kp LEFT_ALT  &kp LS(TAB)  &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)    &kp LC(PAGE_UP)  &mkp MB1            &kp UP_ARROW       &mkp MB2             &kp PAGE_UP
-&kp LEFT_SHIFT  &trans        &trans       &kp LG(DOWN_ARROW)  &trans                 &trans           &kp LC(T)           &kp LC(PAGE_DOWN)  &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LCTRL       &trans                                         &trans                 &trans           &trans              &trans             &trans               &trans          &trans           &kp END
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6        &kp F7        &kp F8        &kp F9        &kp F10
+&kp F11       &kp F12       &trans        &trans        &trans          &trans        &trans        &kp UP        &trans        &trans        &trans  &trans
+&kp LCTRL     &trans                                    &trans          &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &trans        &trans  &trans
             >;
 
             sensor-bindings =
@@ -177,10 +157,10 @@
 
         Num_Layer {
             bindings = <
-&kp F1     &kp F2    &kp F3  &kp F4  &kp F5     &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK
-&kp F6     &kp F7    &kp F8  &kp F9  &kp F10    &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp BACKSPACE
-&kp Z      &kp X     &kp C   &kp V   &kp B      &kp LSHFT        &kp RCTRL        &kp UP           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DELETE
-&kp LCTRL  &kp LALT                  &to 1      &kp SPACE        &kp LEFT         &kp DOWN         &kp RIGHT        &kp KP_NUMBER_0  &kp KP_DOT       &kp ENTER
+&kp ESC    &trans    &trans  &trans  &kp KP_EQUAL    &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK
+&trans     &trans    &trans  &trans  &kp KP_SLASH    &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp BACKSPACE
+&kp Z      &kp X     &kp C   &kp V   &kp B           &kp LSHFT        &kp RCTRL        &kp UP           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DELETE
+&kp LCTRL  &kp LALT                  &to 1           &kp SPACE        &kp LEFT         &kp DOWN         &kp RIGHT        &kp KP_NUMBER_0  &kp KP_DOT       &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

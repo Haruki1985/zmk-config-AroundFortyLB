@@ -43,6 +43,12 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        alphabet {
+            bindings = <&to 1>;
+            key-positions = <34 24>;
+            timeout-ms = <0>;
+        };
     };
 
     //マクロ(既存のキーの組み合わせ)
@@ -162,19 +168,19 @@
 
         Auto-MOUSE_Layer {
             bindings = <
-&mkp RCLK  &msc SCRL_DOWN  &mkp LCLK  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans     &kp RC(UP)      &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans     &trans          &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans                             &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mkp RCLK       &msc MOVE_Y(20)  &mkp LCLK        &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&msc SCRL_LEFT  &kp RC(UP)       &msc SCRL_RIGHT  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans          &trans           &trans           &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                                    &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         Num_Layer {
             bindings = <
-&kp F1   &kp F2   &kp F3                  &kp F4  &kp F5                     &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK
-&kp F6   &kp F7   &kp F8                  &kp F9  &kp F10                    &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp BACKSPACE
-&kp F11  &kp F12  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))    &trans           &kp RCTRL        &kp UP           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DELETE
-&trans   &trans                                   &trans                     &trans           &kp LEFT         &kp DOWN         &kp RIGHT        &kp KP_NUMBER_0  &kp KP_DOT       &kp ENTER
+&kp F1     &kp F2    &kp F3  &kp F4  &kp F5     &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK
+&kp F6     &kp F7    &kp F8  &kp F9  &kp F10    &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp BACKSPACE
+&kp Z      &kp X     &kp C   &kp V   &kp B      &kp LSHFT        &kp RCTRL        &kp UP           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DELETE
+&kp LCTRL  &kp LALT                  &to 1      &kp SPACE        &kp LEFT         &kp DOWN         &kp RIGHT        &kp KP_NUMBER_0  &kp KP_DOT       &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

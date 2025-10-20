@@ -109,10 +109,10 @@
 
         Win-Function_Layer {
             bindings = <
-&kp LC(A)       &kp LC(X)     &kp LC(C)    &kp LC(V)  &kp LC(LS(V))    &kp LESS_THAN         &kp GREATER_THAN       &kp CARET         &kp PERCENT        &kp DOLLAR
-&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1   &mkp MB2         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN       &kp AMPERSAND      &kp DOUBLE_QUOTES
-&kp LEFT_SHIFT  &trans        &trans       &trans     &mkp MB3         &trans                &kp NON_US_BACKSLASH   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCLAMATION    &kp QUESTION  &kp SINGLE_QUOTE
-&kp LCTRL       &trans                                &trans           &trans                &kp BACKSPACE          &kp ENTER         &trans             &trans             &trans        &kp HASH
+&kp LC(A)       &kp LC(X)     &kp LC(C)    &kp LC(V)  &kp LC(LS(V))    &kp LESS_THAN         &kp GREATER_THAN       &kp CARET    &kp PERCENT        &kp DOLLAR
+&kp TAB         &kp LEFT_GUI  &kp LS(TAB)  &mkp MB1   &mkp MB2         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN  &kp AMPERSAND      &kp DELETE
+&kp LEFT_SHIFT  &trans        &trans       &trans     &mkp MB3         &kp LSHFT             &kp TAB                &kp UP       &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp QUESTION  &kp BACKSPACE
+&kp LCTRL       &kp LALT                              &trans           &trans                &kp LEFT               &kp DOWN     &kp RIGHT          &to 7            &to 8         &kp ENTER
             >;
 
             sensor-bindings =
@@ -157,7 +157,7 @@
 
         Num_Layer {
             bindings = <
-&kp ESC    &trans    &trans  &trans  &kp KP_EQUAL    &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK
+&kp ESC    &to 8     &trans  &trans  &kp KP_EQUAL    &kp KP_SUBTRACT  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK
 &trans     &trans    &trans  &trans  &kp KP_SLASH    &kp KP_PLUS      &kp KP_NUMBER_4  &kp KP_N5        &kp KP_NUMBER_6  &kp BACKSPACE
 &kp Z      &kp X     &kp C   &kp V   &kp B           &kp LSHFT        &kp RCTRL        &kp UP           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DELETE
 &kp LCTRL  &kp LALT                  &to 1           &kp SPACE        &kp LEFT         &kp DOWN         &kp RIGHT        &kp KP_NUMBER_0  &kp KP_DOT       &kp ENTER

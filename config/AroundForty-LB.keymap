@@ -99,10 +99,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q         &kp W     &kp E  &kp R  &kp T      &kp Y           &kp U           &kp I  &kp O       &kp P
-&kp A             &kp S     &kp D  &kp F  &kp G      &kp H           &kp J           &kp K  &kp L       &kp DEL
-&kp Z             &kp X     &kp C  &kp V  &lt 3 B    &kp LANGUAGE_2  &kp LANGUAGE_1  &kp N  &kp M       &mt PERIOD COMMA  &kp UP    &kp BACKSPACE
-&kp LEFT_CONTROL  &kp LALT                &none      &kp SPACE       &kp ENTER       &to 2  &kp PERIOD  &kp LEFT          &kp DOWN  &kp RIGHT
+&mt ESC Q         &kp W     &kp E  &kp R  &kp T      &kp Y           &kp U           &kp I  &kp O    &kp P
+&kp A             &kp S     &kp D  &kp F  &kp G      &kp H           &kp J           &kp K  &kp L    &kp DEL
+&kp Z             &kp X     &kp C  &kp V  &lt 3 B    &kp LANGUAGE_2  &kp LANGUAGE_1  &kp N  &kp M    &mt PERIOD COMMA  &kp UP    &kp BACKSPACE
+&kp LEFT_CONTROL  &kp LALT                &none      &kp SPACE       &kp ENTER       &to 2  &kp DOT  &kp LEFT          &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings =
@@ -115,7 +115,7 @@
 &mt ESC F1        &kp F2    &kp F3        &kp F4        &kp F5     &kp N7          &kp N8          &kp N9        &kp MINUS     &kp GRAVE
 &kp F6            &kp F7    &kp F8        &kp F9        &kp F10    &kp NUMBER_4    &kp N5          &kp NUMBER_6  &kp EQUAL     &kp DELETE
 &kp F11           &kp F12   &kp NUMBER_3  &kp NUMBER_4  &kp N5     &kp LANGUAGE_2  &kp LANGUAGE_1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP    &kp BACKSPACE
-&kp LEFT_CONTROL  &kp LALT                              &to 0      &kp SPACE       &kp ENTER       &kp N0        &kp PERIOD    &kp LEFT      &kp DOWN  &kp RIGHT
+&kp LEFT_CONTROL  &kp LALT                              &to 0      &kp SPACE       &kp ENTER       &kp N0        &kp DOT       &kp LEFT      &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings =
@@ -128,7 +128,7 @@
 &kp ESC           &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &kp EQUAL
 &trans            &trans    &kp SEMICOLON     &kp SQT            &kp SLASH               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &kp DEL
 &kp Z             &kp X     &kp C             &kp V              &kp B                   &kp LANGUAGE_2   &kp LANGUAGE_1   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP    &kp BACKSPACE
-&kp LEFT_CONTROL  &kp LALT                                       &to 0                   &kp SPACE        &kp ENTER        &kp KP_NUMBER_0  &kp PERIOD       &kp LEFT         &kp DOWN  &kp RIGHT
+&kp LEFT_CONTROL  &kp LALT                                       &to 0                   &kp SPACE        &kp ENTER        &kp KP_NUMBER_0  &kp DOT          &kp LEFT         &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

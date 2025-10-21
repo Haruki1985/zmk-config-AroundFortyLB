@@ -53,6 +53,11 @@
             bindings = <&kp RSHFT>;
             key-positions = <40 41>;
         };
+
+        Lshift {
+            bindings = <&kp LSHFT>;
+            key-positions = <32 33>;
+        };
     };
 
     //マクロ(既存のキーの組み合わせ)

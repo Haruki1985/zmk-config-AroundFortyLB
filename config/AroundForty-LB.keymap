@@ -115,10 +115,10 @@
 
         Num_Layer {
             bindings = <
-&kp ESC       &none                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &kp EQUAL
-&none         &none                    &kp SEMICOLON     &kp SQT            &kp SLASH               &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &kp DEL
-&kp Z         &kp X                    &kp C             &kp V              &kp B                   &kp LANGUAGE_2     &kp LANGUAGE_1   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP    &kp BACKSPACE
-&kp LEFT_WIN  &mt LEFT_SHIFT LEFT_ALT                                       &kp LEFT_CONTROL        &to_layer_0 LS(A)  &kp ENTER        &kp KP_NUMBER_0  &kp DOT          &kp LEFT         &kp DOWN  &kp RIGHT
+&kp ESC       &none                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &kp EQUAL
+&none         &none                    &kp SEMICOLON     &kp SQT            &kp SLASH               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &kp DEL
+&kp Z         &kp X                    &kp C             &kp V              &kp B                   &kp LANGUAGE_2   &kp LANGUAGE_1   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP    &kp BACKSPACE
+&kp LEFT_WIN  &mt LEFT_SHIFT LEFT_ALT                                       &kp LEFT_CONTROL        &lt 0 SPACE      &kp ENTER        &kp KP_NUMBER_0  &kp DOT          &kp LEFT         &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

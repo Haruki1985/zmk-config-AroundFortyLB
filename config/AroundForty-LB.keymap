@@ -89,10 +89,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q          &kp W               &kp E  &kp R  &kp T               &kp Y           &kp U           &kp I  &mt MINUS O  &kp P
+&mt ESC Q          &kp W               &kp E  &kp R  &kp T               &kp Y           &kp U           &kp I  &mt MINUS O  &mt PRINTSCREEN P
 &kp A              &kp S               &kp D  &kp F  &kp G               &kp H           &kp J           &kp K  &kp L        &kp DEL
-&kp Z              &kp X               &kp C  &kp V  &lt 3 B             &kp LANGUAGE_2  &kp LANGUAGE_1  &kp N  &kp M        &mt PERIOD COMMA  &kp UP    &kp BACKSPACE
-&kp RIGHT_COMMAND  &mt LSHFT LEFT_ALT                &kp LEFT_CONTROL    &kp SPACE       &kp ENTER       &to 2  &kp DOT      &kp LEFT          &kp DOWN  &kp RIGHT
+&kp Z              &kp X               &kp C  &kp V  &lt 3 B             &kp LANGUAGE_2  &kp LANGUAGE_1  &kp N  &kp M        &mt PERIOD COMMA   &kp UP    &kp BACKSPACE
+&kp RIGHT_COMMAND  &mt LSHFT LEFT_ALT                &kp LEFT_CONTROL    &kp SPACE       &kp ENTER       &to 2  &kp DOT      &kp LEFT           &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings =
@@ -115,10 +115,10 @@
 
         Num_Layer {
             bindings = <
-&kp ESC    &trans                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &kp EQUAL
-&trans     &trans                   &kp SEMICOLON     &kp SQT            &kp SLASH               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &kp DEL
-&kp Z      &kp X                    &kp C             &kp V              &kp B                   &kp LANGUAGE_2   &kp LANGUAGE_1   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP    &kp BACKSPACE
-&kp RCTRL  &mt LEFT_SHIFT LEFT_ALT                                       &to 0                   &kp SPACE        &kp ENTER        &kp KP_NUMBER_0  &kp DOT          &kp LEFT         &kp DOWN  &kp RIGHT
+&kp ESC  &trans                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS        &kp EQUAL
+&trans   &trans                   &kp SEMICOLON     &kp SQT            &kp SLASH               &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS         &kp DEL
+&kp Z    &kp X                    &kp C             &kp V              &kp B                   &kp LANGUAGE_2   &kp LANGUAGE_1   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP    &kp BACKSPACE
+&to 0    &mt LEFT_SHIFT LEFT_ALT                                       &kp LEFT_CONTROL        &kp SPACE        &kp ENTER        &kp KP_NUMBER_0  &kp DOT          &kp LEFT         &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

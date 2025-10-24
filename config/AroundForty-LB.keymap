@@ -89,10 +89,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q     &kp W               &kp E  &kp R    &kp T               &kp Y           &kp U           &kp I  &mt MINUS O  &mt PRINTSCREEN P
-&kp A         &kp S               &kp D  &lt 1 F  &kp G               &kp H           &kp J           &kp K  &kp L        &kp DEL
-&kp Z         &kp X               &kp C  &kp V    &lt 3 B             &kp LANGUAGE_2  &kp LANGUAGE_1  &kp N  &kp M        &mt PERIOD COMMA   &kp UP    &kp BACKSPACE
-&kp LEFT_WIN  &mt LSHFT LEFT_ALT                  &kp LEFT_CONTROL    &kp SPACE       &kp ENTER       &to 2  &kp DOT      &kp LEFT           &kp DOWN  &kp RIGHT
+&mt ESC Q       &kp L               &kp U  &kp COMMA  &kp PERIOD          &kp F           &kp W      &kp R     &kp Y      &mt DELETE P
+&kp E           &kp I               &kp A  &kp O      &kp MINUS           &kp K           &kp T      &kp N     &lt 3 S    &kp H
+&mt CAPSLOCK Z  &kp X               &kp C  &kp V      &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &mt UP G  &kp D      &kp M         &kp J       &mt RSHFT B
+&kp LEFT_WIN    &mt LSHFT LEFT_ALT                    &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN  &kp RIGHT  &to 2         &kp PERIOD  &kp ENTER
             >;
 
             sensor-bindings =

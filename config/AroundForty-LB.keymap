@@ -89,8 +89,8 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q       &kp L               &kp U  &kp COMMA  &kp PERIOD          &kp F           &kp W      &kp R     &kp Y      &mt DELETE P
-&kp E           &kp I               &kp A  &kp O      &kp MINUS           &kp K           &kp T      &kp N     &lt 3 S    &kp H
+&mt ESC Q       &kp L               &kp U  &kp COMMA  &kp PERIOD          &lt 1 F         &kp W      &kp R     &kp Y      &mt DELETE P
+&mt TAB E       &kp I               &kp A  &kp O      &kp MINUS           &kp K           &kp T      &kp N     &lt 3 S    &kp H
 &mt CAPSLOCK Z  &kp X               &kp C  &kp V      &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &mt UP G  &kp D      &kp M         &kp J       &mt RSHFT B
 &kp LEFT_WIN    &mt LSHFT LEFT_ALT                    &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN  &kp RIGHT  &to 2         &kp PERIOD  &kp ENTER
             >;

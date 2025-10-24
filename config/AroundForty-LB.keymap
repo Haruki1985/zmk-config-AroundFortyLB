@@ -19,21 +19,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
-        };
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
@@ -102,10 +87,10 @@
 
         Win-Function_Layer {
             bindings = <
-&mt ESC F1  &kp F2    &kp F3    &kp F4   &kp F5              &kp F6          &kp F7     &kp F8                &kp F9                 &mt DELETE F10
-&kp TAB     &kp F11   &lt 0 F7  &kp F13  &kp F14             &kp F11         &kp F12    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
-&mt CAPS Z  &kp X     &kp C     &kp V    &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &kp UP                &kp NUMBER_1           &kp NUMBER_2    &kp NUMBER_3  &kp RSHIFT
-&kp LWIN    &kp LALT                     &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN              &kp RIGHT              &kp N0          &kp DOT       &kp ENTER
+&mt ESC F1  &kp F2           &kp F3    &kp F4   &kp F5              &kp F6          &kp F7     &kp F8                &kp F9                 &mt DELETE F10
+&kp TAB     &kp PRINTSCREEN  &lt 0 F7  &kp SQT  &kp SLASH           &kp F11         &kp F12    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSPACE
+&mt CAPS Z  &kp X            &kp C     &kp V    &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &kp UP                &kp NUMBER_1           &kp NUMBER_2    &kp NUMBER_3  &kp RSHIFT
+&kp LWIN    &kp LALT                            &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN              &kp RIGHT              &kp N0          &kp DOT       &kp ENTER
             >;
 
             sensor-bindings =
@@ -115,10 +100,10 @@
 
         Num_Layer {
             bindings = <
-&kp ESC       &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &lt 1 ASTERISK  &kp N7             &kp N8    &kp N9        &kp DELETE
-&kp TAB       &none      &to 0             &kp SQT            &kp SLASH               &kp SLASH       &kp NUMBER_4       &kp N5    &kp NUMBER_6  &mt BACKSPACE MINUS
-&mt CAPS Z    &kp X      &kp C             &kp V              &kp SEMICOLON           &kp LANGUAGE_1  &kp RIGHT_CONTROL  &kp UP    &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &mt RIGHT_SHIFT PLUS
-&kp LEFT_WIN  &kp LALT                                        &kp LEFT_CONTROL        &kp SPACE       &kp LEFT           &kp DOWN  &kp RIGHT     &kp N0               &kp DOT       &kp ENTER
+&kp ESC       &kp GRAVE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &lt 1 ASTERISK  &kp N7             &kp N8    &kp N9        &kp DELETE
+&kp TAB       &kp EXCLAMATION  &to 0             &kp SQT            &kp SLASH               &kp EQUAL       &kp NUMBER_4       &kp N5    &kp NUMBER_6  &mt BACKSPACE MINUS
+&mt CAPS Z    &kp X            &kp C             &kp V              &kp SEMICOLON           &kp LANGUAGE_1  &kp RIGHT_CONTROL  &kp UP    &kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3  &mt RIGHT_SHIFT PLUS
+&kp LEFT_WIN  &kp LALT                                              &kp LEFT_CONTROL        &kp SPACE       &kp LEFT           &kp DOWN  &kp RIGHT     &kp N0               &kp DOT       &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

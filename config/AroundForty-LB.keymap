@@ -89,10 +89,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q       &kp L               &kp U  &kp COMMA  &kp PERIOD          &lt 1 F         &kp W      &kp R     &kp Y      &mt DELETE P
-&mt TAB E       &kp I               &kp A  &kp O      &kp MINUS           &kp K           &kp T      &kp N     &lt 3 S    &kp H
-&mt CAPSLOCK Z  &kp X               &kp C  &kp V      &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &mt UP G  &kp D      &kp M         &kp J       &mt RSHFT B
-&kp LEFT_WIN    &mt LSHFT LEFT_ALT                    &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN  &kp RIGHT  &to 2         &kp PERIOD  &kp ENTER
+&mt ESC Q       &kp L     &kp U  &kp COMMA  &kp PERIOD          &lt 1 F         &kp W      &kp R     &kp Y      &mt DELETE P
+&mt TAB E       &kp I     &kp A  &kp O      &kp MINUS           &kp K           &kp T      &kp N     &lt 3 S    &mt BACKSPACE H
+&mt CAPSLOCK Z  &kp X     &kp C  &kp V      &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &mt UP G  &kp D      &kp M            &kp J       &mt RSHFT B
+&kp LEFT_WIN    &kp RALT                    &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN  &kp RIGHT  &to 2            &kp PERIOD  &kp ENTER
             >;
 
             sensor-bindings =
@@ -102,10 +102,10 @@
 
         Win-Function_Layer {
             bindings = <
-&mt ESC F1  &kp F2                   &kp F3                &kp F4                 &kp F5              &kp N7          &kp N8          &kp N9        &kp MINUS     &kp GRAVE
-&lt 0 F6    &kp F7                   &kp F8                &kp F9                 &kp F10             &kp NUMBER_4    &kp N5          &kp NUMBER_6  &kp EQUAL     &kp DELETE
-&kp F11     &kp F12                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH           &kp LANGUAGE_2  &kp LANGUAGE_1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP    &kp BACKSPACE
-&kp LWIN    &mt LEFT_SHIFT LEFT_ALT                                               &kp LEFT_CONTROL    &kp SPACE       &kp ENTER       &to 2         &kp DOT       &kp LEFT      &kp DOWN  &kp RIGHT
+&mt ESC F1   &kp F2                   &kp F3                &kp F4                 &kp F5              &kp F6          &kp F7          &kp F8        &kp F8        &kp F9
+&mt TAB F10  &kp F11                  &kp F12               &kp F13                &kp F14             &kp F10         &kp F11         &kp F12       &kp EQUAL     &kp DELETE
+&kp F11      &kp F12                  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH           &kp LANGUAGE_2  &kp LANGUAGE_1  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp UP    &kp BACKSPACE
+&kp LWIN     &mt LEFT_SHIFT LEFT_ALT                                               &kp LEFT_CONTROL    &kp SPACE       &kp ENTER       &to 2         &kp DOT       &kp LEFT      &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings =

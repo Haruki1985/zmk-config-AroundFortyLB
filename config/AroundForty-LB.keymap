@@ -19,19 +19,9 @@
     combos {
         compatible = "zmk,combos";
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
-        };
-
-        layer1 {
-            bindings = <&to 1>;
-            key-positions = <32 33>;
+        Lang2 {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <39 40>;
         };
     };
 
@@ -120,10 +110,10 @@
 
         Auto-MOUSE_Layer {
             bindings = <
-&kp LC(C)  &trans    &trans    &trans    &trans             &trans  &trans  &trans  &trans  &trans
-&trans     &mkp MB1  &mkp MB3  &mkp MB2  &msc MOVE_Y(20)    &trans  &trans  &trans  &trans  &trans
-&trans     &trans    &trans    &trans    &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans                        &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&mkp RCLK       &mkp MCLK        &mkp LCLK        &mkp MB5  &kp LG(TAB)    &trans  &trans  &trans  &trans  &trans
+&msc SCRL_LEFT  &msc MOVE_Y(20)  &msc SCRL_RIGHT  &mkp MB4  &trans         &trans  &trans  &trans  &trans  &trans
+&trans          &trans           &trans           &trans    &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans                                      &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };

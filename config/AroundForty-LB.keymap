@@ -74,10 +74,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q    &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F     &kp W      &kp R     &kp Y      &kp P
-&mt TAB E    &kp I         &kp A  &kp O      &kp MINUS          &kp K     &kp T      &kp N     &lt 3 S    &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V      &kp QUESTION       &kp CAPS  &kp RCTRL  &mt UP G  &kp D      &kp M  &kp J  &mt RSHFT B
-&kp LCTRL    &kp LEFT_WIN                    &kp EXCLAMATION    &kp LALT  &kp LEFT   &kp DOWN  &kp RIGHT  &to 2  &to 1  &kp ENTER
+&mt ESC Q    &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F     &kp W          &kp R                 &kp Y                  &kp P
+&mt TAB E    &kp I         &kp A  &kp O      &kp MINUS          &kp K     &kp T          &kp N                 &lt 3 S                &kp H
+&mt LSHFT Z  &kp X         &kp C  &kp V      &kp QUESTION       &kp CAPS  &kp SPACE      &kp G                 &kp D                  &kp M  &kp J    &mt RSHFT B
+&kp LCTRL    &kp LEFT_WIN                    &kp EXCLAMATION    &kp LALT  &kp BACKSPACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &to 1  &kp DOT  &kp ENTER
             >;
 
             sensor-bindings =
@@ -85,28 +85,28 @@
                 <&mouse_scroll SCRL_UP SCRL_DOWN>;
         };
 
+        Num_Layer {
+            bindings = <
+&mt ESC GRAVE   &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT        &kp KP_EQUAL    &kp KP_N7      &kp KP_N8         &kp KP_NUMBER_9  &kp KP_ASTERISK
+&mt TAB CARET   &kp AMPS      &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp UNDERSCORE  &kp KP_N4      &kp KP_NUMBER_5   &kp KP_N6        &kp KP_MINUS
+&mt LSHFT LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp CAPS        &kp SPACE      &kp K_PLAY_PAUSE  &kp KP_N1        &kp KP_NUMBER_2  &kp KP_N3   &kp KP_PLUS
+&kp LCTRL       &kp LEFT_WIN                        &kp EXCLAMATION    &kp LALT        &kp BACKSPACE  &kp LPAR          &kp RPAR         &kp KP_N0        &kp KP_DOT  &kp ENTER
+            >;
+
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+        };
+
         Win-Function_Layer {
             bindings = <
 &mt ESC F1          &kp F2           &kp F3  &kp F4  &kp F5              &kp F6          &kp F7     &kp F8                &kp F9                 &kp F10
-&kp TAB             &kp PRINTSCREEN  &to 0   &to 1   &kp APOS            &kp F11         &kp F12    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
+&kp TAB             &kp PRINTSCREEN  &to 0   &to 2   &kp APOS            &kp F11         &kp F12    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
 &mt CAPS Z          &kp X            &kp C   &kp V   &kp SEMICOLON       &kp LANGUAGE_1  &kp RCTRL  &kp UP                &kp NUMBER_1           &kp NUMBER_2  &kp NUMBER_3  &kp RSHIFT
-&mt LSHFT LEFT_WIN  &kp LALT                         &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN              &kp RIGHT              &to 2         &kp DOT       &kp ENTER
+&mt LSHFT LEFT_WIN  &kp LALT                         &kp LEFT_CONTROL    &kp SPACE       &kp LEFT   &kp DOWN              &kp RIGHT              &to 1         &kp DOT       &kp ENTER
             >;
 
             sensor-bindings =
                 <&mouse_scroll SCRL_LEFT SCRL_RIGHT>,
                 <&mouse_scroll SCRL_LEFT SCRL_RIGHT>;
-        };
-
-        Num_Layer {
-            bindings = <
-&kp ESC             &kp GRAVE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH    &kp SLASH       &kp N7             &kp N8    &kp N9        &kp ASTERISK
-&kp TAB             &kp EXCLAMATION  &to 0             &to 1              &kp APOS                &kp EQUAL       &kp NUMBER_4       &kp N5    &kp NUMBER_6  &kp MINUS
-&mt CAPS Z          &kp X            &kp C             &kp V              &kp SEMICOLON           &kp LANGUAGE_1  &kp RIGHT_CONTROL  &kp UP    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&mt LSHFT LEFT_WIN  &kp LALT                                              &kp LEFT_CONTROL        &kp SPACE       &kp LEFT           &kp DOWN  &kp RIGHT     &kp N0        &kp DOT       &kp ENTER
-            >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         Setting_Layer {

@@ -56,17 +56,17 @@
 
         Cut {
             bindings = <&kp LC(X)>;
-            key-positions = <15 16>;
+            key-positions = <5 6>;
         };
 
         Copy {
             bindings = <&kp LC(C)>;
-            key-positions = <17 16>;
+            key-positions = <6 7>;
         };
 
         Paste {
-            bindings = <&kp K_PASTE>;
-            key-positions = <17 18>;
+            bindings = <&kp LC(V)>;
+            key-positions = <7 8>;
         };
 
         Del {

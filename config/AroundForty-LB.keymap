@@ -19,11 +19,6 @@
     combos {
         compatible = "zmk,combos";
 
-        DEF {
-            bindings = <&to 0>;
-            key-positions = <39 40>;
-        };
-
         FUN {
             bindings = <&to 2>;
             key-positions = <40 41>;

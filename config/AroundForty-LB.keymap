@@ -26,7 +26,7 @@
 
         FUN {
             bindings = <&to 2>;
-            key-positions = <39 38>;
+            key-positions = <40 41>;
         };
 
         KANA {
@@ -41,22 +41,22 @@
 
         Left {
             bindings = <&kp LEFT>;
-            key-positions = <31 36>;
+            key-positions = <36 37>;
         };
 
         Right {
             bindings = <&kp RIGHT>;
-            key-positions = <31 38>;
+            key-positions = <38 39>;
         };
 
         Up {
             bindings = <&kp UP>;
-            key-positions = <31 27>;
+            key-positions = <27 28>;
         };
 
         Down {
             bindings = <&kp DOWN>;
-            key-positions = <31 37>;
+            key-positions = <37 38>;
         };
 
         Cut {
@@ -70,7 +70,7 @@
         };
 
         Paste {
-            bindings = <&kp LC(P)>;
+            bindings = <&kp RC(P)>;
             key-positions = <7 8>;
         };
 

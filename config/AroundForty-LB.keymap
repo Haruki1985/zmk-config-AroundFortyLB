@@ -129,7 +129,7 @@
             bindings = <
 &mt ESC GRAVE   &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT        &kp KP_N7  &kp KP_N8      &mt LPAR KP_N9  &mt RPAR KP_ASTERISK  &kp UNDER
 &mt TAB CARET   &kp AMPS      &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp KP_N4  &kp KP_N5      &kp KP_N6       &kp KP_MINUS          &kp KP_EQUAL
-&mt LSHFT LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp CAPS   &kp SPACE      &kp KP_N1       &kp KP_N2             &kp KP_N3     &kp KP_PLUS  &kp KP_SLASH
+&mt LSHFT LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp CAPS   &kp SPACE      &kp KP_N1       &kp KP_N2             &kp KP_N3     &kp KP_PLUS  &mt RSHFT KP_SLASH
 &kp LCTRL       &kp LEFT_WIN                        &kp EXCLAMATION    &kp LALT   &kp BACKSPACE  &kp KP_N0       &kp KP_N0             &kp KP_DOT    &to 0        &mt RCTRL ENTER
             >;
 

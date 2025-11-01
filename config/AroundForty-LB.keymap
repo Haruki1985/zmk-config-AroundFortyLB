@@ -114,10 +114,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q    &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F     &kp W          &mt LPAR R        &mt RPAR Y  &mt PRINTSCREEN P
-&mt TAB E    &kp I         &kp A  &kp O      &kp MINUS          &kp K     &kp T          &mt KP_NUMLOCK N  &lt 3 S     &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V      &kp QUESTION       &kp CAPS  &kp SPACE      &kp G             &kp D       &kp M              &kp J       &mt RSHFT B
-&kp LCTRL    &kp LEFT_WIN                    &kp EXCLAMATION    &kp LALT  &kp BACKSPACE  &trans            &to 1       &to 1              &kp KP_DOT  &mt RCTRL ENTER
+&mt ESC Q   &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F      &kp W      &mt LPAR R        &mt RPAR Y  &mt PRINTSCREEN P
+&mt TAB E   &kp I         &kp A  &kp O      &kp MINUS          &kp K      &kp T      &mt KP_NUMLOCK N  &lt 3 S     &kp H
+&mt CAPS Z  &kp X         &kp C  &kp V      &kp QUESTION       &kp LSHFT  &kp SPACE  &kp G             &kp D       &kp M              &kp J       &mt RSHFT B
+&kp LALT    &kp LEFT_WIN                    &kp EXCLAMATION    &kp LCTRL  &kp LCTRL  &trans            &to 1       &to 1              &kp KP_DOT  &kp ENTER
             >;
 
             sensor-bindings =
@@ -127,10 +127,10 @@
 
         Num_Layer {
             bindings = <
-&mt ESC GRAVE   &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT        &kp UNDERSCORE  &kp KP_N7      &mt LPAR KP_N8  &mt RPAR KP_N9  &kp KP_ASTERISK
-&mt TAB CARET   &kp AMPS      &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp KP_EQUAL    &kp KP_N4      &kp KP_N5       &kp KP_N6       &kp KP_MINUS
-&mt LSHFT LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp CAPS        &kp SPACE      &kp KP_SLASH    &kp KP_N1       &kp KP_N2        &kp KP_N3   &mt RSHFT KP_PLUS
-&kp LCTRL       &kp LEFT_WIN                        &kp EXCLAMATION    &kp LALT        &kp BACKSPACE  &to 0           &kp KP_N0       &kp KP_N0        &kp KP_DOT  &mt RCTRL ENTER
+&mt ESC GRAVE  &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT        &kp UNDERSCORE  &kp KP_N7  &mt LPAR KP_N8  &mt RPAR KP_N9  &kp KP_ASTERISK
+&mt TAB CARET  &kp AMPS      &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp KP_EQUAL    &kp KP_N4  &kp KP_N5       &kp KP_N6       &kp KP_MINUS
+&mt CAPS LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp LSHFT       &kp SPACE  &kp KP_SLASH    &kp KP_N1       &kp KP_N2        &kp KP_N3   &mt RSHFT KP_PLUS
+&kp LALT       &kp LEFT_WIN                        &kp EXCLAMATION    &kp LCTRL       &kp RCTRL  &to 0           &kp KP_N0       &kp KP_N0        &kp KP_DOT  &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
@@ -138,10 +138,10 @@
 
         Win-Function_Layer {
             bindings = <
-&mt ESC GRAVE   &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT        &kp F1    &kp F2         &mt LPAR F3  &mt RPAR F4  &kp F5
-&mt TAB CARET   &kp AMPERSAND  &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp F6    &kp F7         &kp F8       &kp F9       &kp F10
-&mt LSHFT LBRC  &kp RBRC       &kp LT    &kp GT      &kp QUESTION       &kp CAPS  &kp SPACE      &kp F11      &kp F12      &kp F13     &kp F14  &mt RSHIFT F15
-&kp LCTRL       &kp LGUI                             &kp EXCLAMATION    &kp LALT  &kp BACKSPACE  &to 1        &to 1        &kp KP_DOT  &to 0    &mt RCTRL ENTER
+&mt ESC GRAVE  &kp AT         &kp HASH  &kp DOLLAR  &kp PERCENT        &kp F1     &kp F2     &mt LPAR F3  &mt RPAR F4  &kp F5
+&mt TAB CARET  &kp AMPERSAND  &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp F6     &kp F7     &kp F8       &kp F9       &kp F10
+&mt CAPS LBRC  &kp RBRC       &kp LT    &kp GT      &kp QUESTION       &kp LSHFT  &kp SPACE  &kp F11      &kp F12      &kp F13  &kp F14     &mt RSHIFT F15
+&kp LALT       &kp LGUI                             &kp EXCLAMATION    &kp LCTRL  &kp LCTRL  &to 0        &to 1        &to 1    &kp KP_DOT  &kp ENTER
             >;
 
             sensor-bindings =

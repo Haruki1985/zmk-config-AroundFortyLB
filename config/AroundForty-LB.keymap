@@ -116,8 +116,8 @@
             bindings = <
 &mt ESC Q    &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F     &kp W          &mt LPAR R        &mt RPAR Y  &mt PRINTSCREEN P
 &mt TAB E    &kp I         &kp A  &kp O      &kp MINUS          &kp K     &kp T          &mt KP_NUMLOCK N  &lt 3 S     &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V      &kp QUESTION       &kp CAPS  &kp SPACE      &kp G             &kp D       &kp M              &kp J   &mt RSHFT B
-&kp LCTRL    &kp LEFT_WIN                    &kp EXCLAMATION    &kp LALT  &kp BACKSPACE  &to 1             &to 1       &kp KP_DOT         &trans  &mt RCTRL ENTER
+&mt LSHFT Z  &kp X         &kp C  &kp V      &kp QUESTION       &kp CAPS  &kp SPACE      &kp G             &kp D       &kp M              &kp J       &mt RSHFT B
+&kp LCTRL    &kp LEFT_WIN                    &kp EXCLAMATION    &kp LALT  &kp BACKSPACE  &trans            &to 1       &to 1              &kp KP_DOT  &mt RCTRL ENTER
             >;
 
             sensor-bindings =
@@ -127,10 +127,10 @@
 
         Num_Layer {
             bindings = <
-&mt ESC GRAVE   &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT        &kp KP_N7  &kp KP_N8      &mt LPAR KP_N9  &mt RPAR KP_ASTERISK  &kp UNDER
-&mt TAB CARET   &kp AMPS      &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp KP_N4  &kp KP_N5      &kp KP_N6       &kp KP_MINUS          &kp KP_EQUAL
-&mt LSHFT LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp CAPS   &kp SPACE      &kp KP_N1       &kp KP_N2             &kp KP_N3     &kp KP_PLUS  &mt RSHFT KP_SLASH
-&kp LCTRL       &kp LEFT_WIN                        &kp EXCLAMATION    &kp LALT   &kp BACKSPACE  &kp KP_N0       &kp KP_N0             &kp KP_DOT    &to 0        &mt RCTRL ENTER
+&mt ESC GRAVE   &kp AT_SIGN   &kp HASH  &kp DOLLAR  &kp PERCENT        &kp KP_N7  &kp KP_N7      &mt LPAR KP_N8  &mt RPAR KP_N9  &kp UNDER
+&mt TAB CARET   &kp AMPS      &kp LBKT  &kp RBKT    &kp BACKSLASH      &kp KP_N4  &kp KP_N4      &kp KP_N5       &kp KP_N6       &kp KP_EQUAL
+&mt LSHFT LBRC  &kp RBRC      &kp LT    &kp GT      &kp QUESTION       &kp CAPS   &kp SPACE      &kp KP_N1       &kp KP_N1       &kp KP_N2     &kp KP_N3   &mt RSHFT KP_SLASH
+&kp LCTRL       &kp LEFT_WIN                        &kp EXCLAMATION    &kp LALT   &kp BACKSPACE  &to 0           &kp KP_N0       &kp KP_N0     &kp KP_DOT  &mt RCTRL ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

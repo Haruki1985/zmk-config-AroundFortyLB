@@ -21,7 +21,7 @@
 
         FUN {
             bindings = <&to 2>;
-            key-positions = <40 41>;
+            key-positions = <41 40>;
         };
 
         KANA {
@@ -72,6 +72,11 @@
         Del {
             bindings = <&kp DEL>;
             key-positions = <9 8>;
+        };
+
+        BS {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <19 18>;
         };
     };
 

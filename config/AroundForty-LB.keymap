@@ -44,7 +44,7 @@
             key-positions = <24 25>;
         };
 
-        COPY {
+        copy {
             bindings = <&kp LC(C)>;
             key-positions = <6 7>;
         };

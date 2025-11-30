@@ -89,10 +89,10 @@
 
         Mac-Default_Layer {
             bindings = <
-&kp Q      &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp Y    &kp U      &kp I        &kp O        &kp P
-&kp E      &kp I         &kp A  &kp O      &kp MINUS          &kp H    &kp J      &kp K        &kp L        &kp MINUS
-&kp Z      &kp X         &kp C  &kp V      &kp QUESTION       &kp F10  &kp SPACE  &kp N        &kp M        &kp COMMA     &kp PERIOD        &mt RIGHT_SHIFT B
-&kp LCTRL  &kp LEFT_GUI                    &kp EXCLAMATION    &kp F7   &kp RSHFT  &lt 4 ENTER  &lt 7 SPACE  &kp LEFT_ALT  &lt 8 LEFT_SHIFT  &kp DEL
+&kp Q      &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F    &kp W      &mt LPAR R   &mt RIGHT_PARENTHESIS R  &mt PRINTSCREEN P
+&kp E      &kp I         &kp A  &kp O      &kp MINUS          &kp K    &kp T      &kp N        &lt 8 S                  &kp H
+&kp Z      &kp X         &kp C  &kp V      &kp QUESTION       &kp F10  &kp SPACE  &kp G        &kp D                    &kp M              &kp J   &kp B
+&kp LCTRL  &kp LEFT_GUI                    &kp EXCLAMATION    &kp F7   &kp RSHFT  &lt 4 ENTER  &kp LEFT                 &kp DOWN           &kp UP  &kp RIGHT
             >;
 
             sensor-bindings =

@@ -48,6 +48,16 @@
             bindings = <&to 1>;
             key-positions = <36 37>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <30 31>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <27 26>;
+        };
     };
 
     //マクロ(既存のキーの組み合わせ)

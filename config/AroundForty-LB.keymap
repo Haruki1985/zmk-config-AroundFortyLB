@@ -91,8 +91,8 @@
             bindings = <
 &kp Q      &kp L         &kp U  &kp COMMA  &kp PERIOD         &kp F    &kp W      &mt LPAR R  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
 &kp E      &kp I         &kp A  &kp O      &kp MINUS          &kp K    &kp T      &kp N       &lt 3 S                  &kp H
-&kp Z      &kp X         &kp C  &kp V      &kp QUESTION       &kp F10  &kp SPACE  &kp G       &kp D                    &kp M              &kp J   &kp B
-&kp LCTRL  &kp LEFT_GUI                    &kp EXCLAMATION    &kp F7   &kp RSHFT  &trans      &kp LEFT                 &kp DOWN           &kp UP  &kp RIGHT
+&kp Z      &kp X         &kp C  &kp V      &kp QUESTION       &kp F7   &kp SPACE  &kp G       &kp D                    &kp M              &kp J   &kp B
+&kp LCTRL  &kp LEFT_GUI                    &kp EXCLAMATION    &kp F10  &kp RSHFT  &trans      &kp LEFT                 &kp DOWN           &kp UP  &kp RIGHT
             >;
 
             sensor-bindings =
@@ -102,10 +102,10 @@
 
         Win_Functian_Layer {
             bindings = <
-&kp F1   &kp F2   &kp F3                  &kp F4  &kp F5                     &kp F1  &kp F2     &kp F3   &kp F4   &kp F5
-&kp F6   &kp F7   &kp F8                  &kp F9  &kp F10                    &kp F6  &kp F7     &kp F8   &kp F9   &kp F10
-&kp F11  &kp F12  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))    &trans  &kp SPACE  &kp F11  &kp F12  &kp F13  &kp F14        &kp F15
-&trans   &trans                                   &trans                     &trans  &kp RSHFT  &kp RET  &trans   &trans   &kp AMPERSAND  &kp BSPC
+&trans   &kp AT_SIGN  &kp POUND               &kp DOLLAR  &kp PERCENT                &kp F1  &kp F2     &kp F3   &kp F4   &kp F5
+&kp F6   &kp F7       &kp F8                  &kp F9      &kp F10                    &kp F6  &kp F7     &kp F8   &kp F9   &kp F10
+&kp F11  &kp F12      &kp LG(LS(LEFT_ARROW))  &trans      &kp LG(LS(RIGHT_ARROW))    &kp F7  &kp SPACE  &kp F11  &kp F12  &kp F13  &kp F14        &kp F15
+&trans   &trans                                           &trans                     &trans  &kp RSHFT  &to 0    &trans   &trans   &kp AMPERSAND  &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

@@ -99,10 +99,10 @@
 
         Win-Default_Layer {
             bindings = <
-&kp Q        &kp L         &kp U  &mt SEMICOLON COMMA  &mt COLON PERIOD    &kp F    &kp W      &mt LEFT_PARENTHESIS R  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
-&kp E        &kp I         &kp A  &kp O                &mt UNDER MINUS     &kp K    &kp T      &kp N                   &lt 3 S                  &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V                &kp QUESTION        &kp F7   &kp SPACE  &kp G                   &kp D                    &kp M              &kp J      &mt RSHFT B
-&kp LCTRL    &kp LEFT_GUI                              &kp EXCLAMATION     &kp F10  &to 0      &kp LEFT                &kp UP                   &kp DOWN           &kp RIGHT  &kp RIGHT_CONTROL
+&kp Q        &kp L         &kp U  &mt SEMICOLON COMMA  &mt COLON PERIOD        &kp F    &kp W      &mt LEFT_PARENTHESIS R  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
+&kp E        &kp I         &kp A  &kp O                &mt UNDERSCORE MINUS    &kp K    &kp T      &kp N                   &lt 3 S                  &kp H
+&mt LSHFT Z  &kp X         &kp C  &kp V                &kp QUESTION            &kp F7   &kp SPACE  &kp G                   &kp D                    &kp M              &kp J      &mt RSHFT B
+&kp LCTRL    &kp LEFT_GUI                              &kp EXCLAMATION         &kp F10  &trans     &kp LEFT                &kp UP                   &kp DOWN           &kp RIGHT  &mt RIGHT_CONTROL ENTER
             >;
 
             sensor-bindings =
@@ -112,10 +112,10 @@
 
         Win_Functian_Layer {
             bindings = <
-&kp SINGLE_QUOTE  &kp AT_SIGN      &kp POUND         &kp DOLLAR        &kp PERCENT        &kp F1   &kp F2     &mt LEFT_PARENTHESIS F3  &mt RIGHT_PARENTHESIS F4  &kp F5
-&kp CARET         &kp AMPERSAND    &kp LEFT_BRACKET  &kp RBKT          &kp BSLH           &kp F6   &kp F7     &kp F8                   &kp F9                    &kp F10
-&kp LEFT_BRACE    &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN  &kp QUESTION       &kp F7   &kp SPACE  &kp F11                  &kp F12                   &kp F13  &kp F14   &kp F15
-&kp LCTRL         &kp LEFT_WIN                                         &kp EXCLAMATION    &kp F10  &kp RSHFT  &to 0                    &kp LEFT                  &kp UP   &kp DOWN  &kp RIGHT
+&kp SINGLE_QUOTE      &kp AT_SIGN      &kp POUND         &kp DOLLAR        &kp PERCENT        &kp F1   &kp F2     &mt LEFT_PARENTHESIS F3  &mt RIGHT_PARENTHESIS F4  &kp F5
+&kp CARET             &kp AMPERSAND    &kp LEFT_BRACKET  &kp RBKT          &kp BSLH           &kp F6   &kp F7     &kp F8                   &kp F9                    &kp F10
+&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN  &kp QUESTION       &kp F7   &kp SPACE  &kp F11                  &kp F12                   &kp F13   &kp F14    &kp F15
+&kp LCTRL             &kp LEFT_WIN                                         &kp EXCLAMATION    &kp F10  &to 0      &kp LEFT                 &kp UP                    &kp DOWN  &kp RIGHT  &mt RCTRL ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

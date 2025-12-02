@@ -45,7 +45,7 @@
         };
 
         fun {
-            bindings = <&to 1>;
+            bindings = <&to 2>;
             key-positions = <36 37>;
         };
 
@@ -57,6 +57,16 @@
         lang2 {
             bindings = <&kp LANG2>;
             key-positions = <27 26>;
+        };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <27 37>;
+        };
+
+        num {
+            bindings = <&to 4>;
+            key-positions = <40 39>;
         };
     };
 
@@ -100,14 +110,23 @@
         Win-Default_Layer {
             bindings = <
 &kp Q        &kp L         &kp U  &mt SEMICOLON COMMA  &mt COLON PERIOD    &kp F    &kp W      &mt LEFT_PARENTHESIS R  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
-&kp E        &kp I         &kp A  &kp O                &mt EQUAL MINUS     &kp K    &kp T      &kp N                   &lt 3 S                  &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V                &kp QUESTION        &kp F7   &kp SPACE  &kp G                   &kp D                    &kp M              &kp J      &mt RSHFT B
-&kp LCTRL    &kp LEFT_GUI                              &kp EXCLAMATION     &kp F10  &trans     &kp LEFT                &kp UP                   &kp DOWN           &kp RIGHT  &mt RIGHT_CONTROL ENTER
+&kp E        &kp I         &kp A  &kp O                &mt EQUAL MINUS     &kp K    &kp T      &kp N                   &lt 4 S                  &kp H
+&mt LSHFT Z  &kp X         &kp C  &kp V                &kp QUESTION        &kp F7   &kp SPACE  &kp G                   &kp D                    &kp M              &kp J   &mt RSHFT B
+&kp LCTRL    &kp LEFT_GUI                              &kp EXCLAMATION     &kp F10  &kp LEFT   &kp DOWN                &kp RIGHT                &trans             &trans  &mt RIGHT_CONTROL ENTER
             >;
 
             sensor-bindings =
                 <&mouse_scroll SCRL_UP SCRL_DOWN>,
                 <&mouse_scroll SCRL_UP SCRL_DOWN>;
+        };
+
+        NUM_LAYER {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
 
         Win_Functian_Layer {

@@ -59,11 +59,6 @@
             key-positions = <27 26>;
         };
 
-        up {
-            bindings = <&kp UP>;
-            key-positions = <27 37>;
-        };
-
         num {
             bindings = <&to 1>;
             key-positions = <40 39>;

@@ -119,10 +119,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q    &kp L         &kp U  &mt SEMICOLON COMMA  &mt COLON PERIOD            &kp F    &kp W      &mt LEFT_PARENTHESIS R  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
-&kp E        &kp I         &kp A  &kp O                &mt UNDER MINUS             &kp K    &kp T      &kp N                   &lt 4 S                  &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V                &mt EXCLAMATION QUESTION    &kp F7   &kp SPACE  &kp G                   &kp D                    &kp M              &kp J   &mt RSHFT B
-&kp LCTRL    &kp LEFT_GUI                              &kp TAB                     &kp F10  &kp LEFT   &kp DOWN                &kp RIGHT                &trans             &trans  &mt RIGHT_CONTROL ENTER
+&mt ESC Q    &mt EXCLAMATION W  &kp E  &mt SEMICOLON R  &mt COLON T    &kp Y    &kp U      &mt LEFT_PARENTHESIS I  &mt RIGHT_PARENTHESIS O  &mt PRINTSCREEN P
+&kp A        &kp S              &kp D  &kp F            &mt SQT G      &kp H    &kp J      &kp K                   &mt QUESTION L           &kp MINUS
+&mt LSHFT Z  &kp X              &kp C  &kp V            &kp B          &kp F7   &kp SPACE  &kp UP                  &kp N                    &kp M              &kp COMMA  &mt RSHFT PERIOD
+&kp LCTRL    &kp LEFT_GUI                               &kp TAB        &kp F10  &kp LEFT   &kp DOWN                &kp RIGHT                &trans             &trans     &mt RIGHT_CONTROL ENTER
             >;
 
             sensor-bindings =
@@ -134,7 +134,7 @@
             bindings = <
 &mt ESC APOS          &kp AT_SIGN      &kp POUND      &kp DOLLAR        &kp PERCENT                 &kp SLASH  &kp KP_ASTERISK  &mt LEFT_PARENTHESIS KP_N7  &mt RIGHT_PARENTHESIS KP_N8  &kp KP_N9
 &kp CARET             &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_PLUS      &kp KP_N4                   &kp KP_N5                    &kp KP_N6
-&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7     &kp SPACE        &kp UNDERSCORE              &kp KP_MINUS                 &kp KP_N1  &kp KP_N2   &mt RSHFT KP_N3
+&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7     &kp SPACE        &kp UP                      &kp KP_MINUS                 &kp KP_N1  &kp KP_N2   &mt RSHFT KP_N3
 &kp LEFT_CONTROL      &kp LEFT_WIN                                      &kp TAB                     &kp F10    &kp LEFT         &kp DOWN                    &kp RIGHT                    &kp KP_N0  &kp KP_DOT  &mt RCTRL ENTER
             >;
         };

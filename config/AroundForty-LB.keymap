@@ -115,7 +115,7 @@
         Win-Default_Layer {
             bindings = <
 &mt ESC Q    &mt EXCLAMATION W  &kp E  &mt SEMICOLON R  &mt COLON T    &kp Y    &kp U      &mt LEFT_PARENTHESIS I  &mt RIGHT_PARENTHESIS O  &mt PRINTSCREEN P
-&kp A        &kp S              &kp D  &kp F            &mt SQT G      &kp H    &kp J      &kp K                   &kp L                    &mt QUESTION MINUS
+&kp A        &lt 4 S            &kp D  &kp F            &mt SQT G      &kp H    &kp J      &kp K                   &kp L                    &mt QUESTION MINUS
 &mt LSHFT Z  &kp X              &kp C  &kp V            &kp B          &kp F7   &kp SPACE  &kp UP                  &kp N                    &kp M               &kp COMMA  &mt RSHFT PERIOD
 &kp LCTRL    &kp LEFT_GUI                               &kp TAB        &kp F10  &kp LEFT   &kp DOWN                &kp RIGHT                &trans              &trans     &mt RCTRL ENTER
             >;

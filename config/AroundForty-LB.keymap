@@ -73,6 +73,26 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <32 33>;
         };
+
+        Lclick {
+            bindings = <&mkp LCLK>;
+            key-positions = <3 2>;
+        };
+
+        Rclick {
+            bindings = <&mkp RCLK>;
+            key-positions = <1 0>;
+        };
+
+        Mclick {
+            bindings = <&mkp MCLK>;
+            key-positions = <1 2>;
+        };
+
+        scroll {
+            bindings = <&msc MOVE_Y(0)>;
+            key-positions = <11 12>;
+        };
     };
 
     //マクロ(既存のキーの組み合わせ)

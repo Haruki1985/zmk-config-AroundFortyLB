@@ -90,7 +90,7 @@
         };
 
         scroll {
-            bindings = <&msc MOVE_Y(20)>;
+            bindings = <&mmv MOVE_Y(100)>;
             key-positions = <11 12>;
         };
     };

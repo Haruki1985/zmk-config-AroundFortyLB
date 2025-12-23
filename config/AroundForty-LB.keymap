@@ -89,9 +89,14 @@
             key-positions = <1 2>;
         };
 
-        scroll {
-            bindings = <&mmv MOVE_Y(100)>;
+        scrollup {
+            bindings = <&msc MOVE_Y(10)>;
             key-positions = <11 12>;
+        };
+
+        scrolldown {
+            bindings = <&msc MOVE_Y(-10)>;
+            key-positions = <21 22>;
         };
     };
 

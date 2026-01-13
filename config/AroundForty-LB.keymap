@@ -21,17 +21,17 @@
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <6 7>;
+            key-positions = <5 8>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <5 6>;
+            key-positions = <5 7>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <7 8>;
+            key-positions = <5 9>;
         };
 
         del {
@@ -59,11 +59,6 @@
             key-positions = <27 26>;
         };
 
-        up {
-            bindings = <&kp UP>;
-            key-positions = <27 37>;
-        };
-
         num {
             bindings = <&to 1>;
             key-positions = <40 39>;
@@ -72,11 +67,6 @@
         default {
             bindings = <&to 0>;
             key-positions = <15 16>;
-        };
-
-        alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <32 33>;
         };
     };
 

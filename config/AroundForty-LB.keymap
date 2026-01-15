@@ -68,21 +68,6 @@
             bindings = <&to 0>;
             key-positions = <15 16>;
         };
-
-        cap {
-            bindings = <&kp CAPS>;
-            key-positions = <10 20>;
-        };
-
-        CTRl+Z {
-            bindings = <&kp LC(Z)>;
-            key-positions = <5 6>;
-        };
-
-        CTRl+Y {
-            bindings = <&kp LC(Y)>;
-            key-positions = <6 7>;
-        };
     };
 
     //マクロ(既存のキーの組み合わせ)

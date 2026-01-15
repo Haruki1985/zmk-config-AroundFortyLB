@@ -21,17 +21,17 @@
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <6 7>;
+            key-positions = <5 8>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <5 6>;
+            key-positions = <5 7>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <7 8>;
+            key-positions = <5 9>;
         };
 
         del {
@@ -59,11 +59,6 @@
             key-positions = <27 26>;
         };
 
-        up {
-            bindings = <&kp UP>;
-            key-positions = <27 37>;
-        };
-
         num {
             bindings = <&to 1>;
             key-positions = <40 39>;
@@ -74,9 +69,19 @@
             key-positions = <15 16>;
         };
 
-        alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <32 33>;
+        cap {
+            bindings = <&kp CAPS>;
+            key-positions = <10 20>;
+        };
+
+        CTRl+Z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <5 6>;
+        };
+
+        CTRl+Y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <6 7>;
         };
     };
 
@@ -119,10 +124,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q    &kp L         &kp U  &mt SEMICOLON COMMA  &mt COLON PERIOD            &kp F    &kp W      &mt LEFT_PARENTHESIS R  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
-&kp E        &kp I         &kp A  &kp O                &mt UNDER MINUS             &kp K    &kp T      &kp N                   &lt 4 S                  &kp H
-&mt LSHFT Z  &kp X         &kp C  &kp V                &mt EXCLAMATION QUESTION    &kp F7   &kp ENTER  &kp G                   &kp D                    &kp M              &kp J   &mt RSHFT B
-&kp LCTRL    &kp LEFT_GUI                              &kp TAB                     &kp F10  &kp LEFT   &kp DOWN                &kp RIGHT                &trans             &trans  &mt RIGHT_CONTROL ENTER
+&mt ESC Q    &kp W         &kp E  &kp R  &kp T                       &kp Y    &kp U      &mt LEFT_PARENTHESIS I  &mt RIGHT_PARENTHESIS O  &mt PRINTSCREEN P
+&kp A        &kp I         &kp A  &kp O  &mt UNDER MINUS             &kp K    &kp T      &kp N                   &lt 4 S                  &kp H
+&mt LSHFT Z  &kp X         &kp C  &kp V  &mt EXCLAMATION QUESTION    &kp F7   &kp ENTER  &kp G                   &kp D                    &kp M              &kp J   &mt RSHFT B
+&kp LCTRL    &kp LEFT_GUI                &kp TAB                     &kp F10  &kp LEFT   &kp DOWN                &kp RIGHT                &trans             &trans  &mt RIGHT_CONTROL ENTER
             >;
 
             sensor-bindings =
@@ -133,9 +138,9 @@
         NUM_LAYER {
             bindings = <
 &mt ESC APOS          &kp AT_SIGN      &kp POUND      &kp DOLLAR        &kp PERCENT                 &kp SLASH  &kp KP_ASTERISK  &mt LEFT_PARENTHESIS KP_N7  &mt RIGHT_PARENTHESIS KP_N8  &kp KP_N9
-&kp CARET             &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_PLUS      &kp KP_N4                   &kp KP_N5                    &kp KP_N6
-&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7     &kp SPACE        &kp UNDERSCORE              &kp KP_MINUS                 &kp KP_N1  &kp KP_N2   &mt RSHFT KP_N3
-&kp LEFT_CONTROL      &kp LEFT_WIN                                      &kp TAB                     &kp F10    &kp LEFT         &kp DOWN                    &kp RIGHT                    &kp KP_N0  &kp KP_DOT  &mt RCTRL ENTER
+&kp CARET             &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_MINUS     &kp KP_N4                   &kp KP_N5                    &kp KP_N6
+&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp SPACE  &kp ENTER        &kp UP                      &kp KP_PLUS                  &kp KP_N1  &kp KP_N2  &mt RSHFT KP_N3
+&kp LEFT_CONTROL      &kp LEFT_WIN                                      &kp TAB                     &kp F10    &kp LEFT         &kp DOWN                    &kp RIGHT                    &kp KP_N0  &kp KP_N0  &kp KP_DOT
             >;
         };
 

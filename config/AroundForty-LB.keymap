@@ -83,6 +83,11 @@
             bindings = <&kp F2>;
             key-positions = <37 36>;
         };
+
+        cap {
+            bindings = <&kp CAPS>;
+            key-positions = <20 10>;
+        };
     };
 
     //マクロ(既存のキーの組み合わせ)

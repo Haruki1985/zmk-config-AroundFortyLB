@@ -68,6 +68,21 @@
             bindings = <&to 0>;
             key-positions = <15 16>;
         };
+
+        CTRl+Z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <5 6>;
+        };
+
+        CTRl+Y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <6 7>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <37 36>;
+        };
     };
 
     //マクロ(既存のキーの組み合わせ)

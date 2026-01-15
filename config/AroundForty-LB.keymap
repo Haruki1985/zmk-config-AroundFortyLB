@@ -109,10 +109,10 @@
 
         Win-Default_Layer {
             bindings = <
-&mt ESC Q    &kp W         &kp E  &kp R  &kp T                       &kp Y    &kp U      &kp I     &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
-&kp E        &kp I         &kp A  &kp O  &mt UNDER MINUS             &kp H    &kp J      &kp K     &kp L                    &kp MINUS
-&mt LSHFT Z  &kp X         &kp C  &kp V  &mt EXCLAMATION QUESTION    &kp F7   &kp SPACE  &kp G     &kp D                    &kp M              &kp J   &mt RSHFT B
-&kp LCTRL    &kp LEFT_GUI                &kp TAB                     &kp F10  &kp LEFT   &kp DOWN  &kp RIGHT                &trans             &trans  &mt RIGHT_CONTROL ENTER
+&mt ESC Q    &kp W         &kp E  &kp R  &kp T      &kp Y      &kp U      &mt LEFT_PARENTHESIS I  &mt RIGHT_PARENTHESIS Y  &mt PRINTSCREEN P
+&mt LSHFT A  &kp S         &kp D  &kp F  &kp G      &kp H      &kp J      &kp K                   &kp L                    &mt RSHFT MINUS
+&mt LCTRL Z  &kp X         &kp C  &kp V  &kp B      &kp SPACE  &kp ENTER  &kp UP                  &mt KP_NUMLOCK N         &kp M              &mt PERIOD COMMA  &mt RCTRL QUESTION
+&kp LALT     &kp LEFT_GUI                &kp TAB    &kp F10    &kp LEFT   &kp DOWN                &kp RIGHT                &trans             &trans            &trans
             >;
 
             sensor-bindings =
@@ -123,9 +123,9 @@
         NUM_LAYER {
             bindings = <
 &mt ESC APOS          &kp AT_SIGN      &kp POUND      &kp DOLLAR        &kp PERCENT                 &kp SLASH  &kp KP_ASTERISK  &mt LEFT_PARENTHESIS KP_N7  &mt RIGHT_PARENTHESIS KP_N8  &kp KP_N9
-&kp CARET             &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_PLUS      &kp KP_N4                   &kp KP_N5                    &kp KP_N6
-&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7     &kp SPACE        &kp UNDERSCORE              &kp KP_MINUS                 &kp KP_N1  &kp KP_N2   &mt RSHFT KP_N3
-&kp LEFT_CONTROL      &kp LEFT_WIN                                      &kp TAB                     &kp F10    &kp LEFT         &kp DOWN                    &kp RIGHT                    &kp KP_N0  &kp KP_DOT  &mt RCTRL ENTER
+&mt LEFT_SHIFT CARET  &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_MINUS     &kp KP_N4                   &kp KP_N5                    &mt RSHFT KP_N6
+&mt LCTRL LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp SPACE  &kp ENTER        &kp UP                      &kp KP_PLUS                  &kp KP_N1        &kp KP_N2  &mt RCTRL KP_N3
+&kp LALT              &kp LEFT_WIN                                      &kp TAB                     &kp F10    &kp LEFT         &kp DOWN                    &kp RIGHT                    &kp KP_N0        &kp KP_N0  &kp KP_DOT
             >;
         };
 

@@ -21,17 +21,17 @@
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <5 8>;
+            key-positions = <5 7>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <5 7>;
+            key-positions = <5 6>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <5 9>;
+            key-positions = <5 8>;
         };
 
         del {
@@ -71,12 +71,12 @@
 
         back {
             bindings = <&kp LC(Z)>;
-            key-positions = <5 6>;
+            key-positions = <6 7>;
         };
 
         foward {
             bindings = <&kp LC(Y)>;
-            key-positions = <6 7>;
+            key-positions = <7 8>;
         };
 
         f2 {

@@ -79,14 +79,29 @@
             key-positions = <7 8>;
         };
 
-        f2 {
-            bindings = <&kp F2>;
-            key-positions = <37 36>;
-        };
-
         cap {
             bindings = <&kp CAPS>;
             key-positions = <20 10>;
+        };
+
+        left {
+            bindings = <&kp LEFT>;
+            key-positions = <36 37>;
+        };
+
+        up {
+            bindings = <&kp UP>;
+            key-positions = <27 28>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <38 39>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <37 38>;
         };
     };
 

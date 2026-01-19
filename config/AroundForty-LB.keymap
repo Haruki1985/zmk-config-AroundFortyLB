@@ -46,7 +46,7 @@
 
         fun {
             bindings = <&to 2>;
-            key-positions = <27 28>;
+            key-positions = <16 17>;
         };
 
         lang1 {
@@ -166,10 +166,10 @@
 
         Win_Functian_Layer {
             bindings = <
-&mt ESC SINGLE_QUOTE  &kp AT_SIGN      &kp POUND         &kp DOLLAR        &kp PERCENT                 &kp F1   &kp F2     &mt LEFT_PARENTHESIS F3  &mt RIGHT_PARENTHESIS F4  &kp F5
-&kp CARET             &kp AMPERSAND    &kp LEFT_BRACKET  &kp RBKT          &kp BSLH                    &kp F6   &kp F7     &kp F8                   &kp F9                    &kp F10
-&mt LSHFT LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7   &kp SPACE  &kp F11                  &kp F12                   &kp F13  &kp F14  &kp F15
-&kp LCTRL             &kp LEFT_WIN                                         &kp TAB                     &kp F10  &kp LEFT   &kp DOWN                 &kp RIGHT                 &trans   &trans   &mt RCTRL ENTER
+&mt ESC SINGLE_QUOTE         &kp AT_SIGN      &kp POUND         &kp DOLLAR        &kp PERCENT                 &kp F1   &kp F2     &mt LEFT_PARENTHESIS F3  &mt RIGHT_PARENTHESIS F4  &kp F5
+&mt LSHFT TILDE              &kp AMPERSAND    &kp LEFT_BRACKET  &kp RBKT          &kp BSLH                    &kp F6   &kp F7     &kp F8                   &kp F9                    &kp F10
+&mt LEFT_CONTROL LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7   &kp F2     &kp F11                  &kp F12                   &kp F13  &kp F14  &mt RCTRL F7
+&kp LEFT_ALT                 &kp LEFT_WIN                                         &kp TAB                     &kp F10  &kp SPACE  &trans                   &trans                    &trans   &trans   &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;

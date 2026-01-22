@@ -158,7 +158,7 @@
         NUM_LAYER {
             bindings = <
 &mt ESC APOS          &kp AT_SIGN      &kp POUND      &kp DOLLAR        &kp PERCENT                 &kp SLASH  &kp KP_N7  &mt LEFT_PARENTHESIS KP_N8  &mt RIGHT_PARENTHESIS KP_N9  &kp ASTRK
-&mt LEFT_SHIFT CARET  &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_N4  &kp KP_N5                   &kp KP_N6                    &mt RSHFT KP_MINUS
+&mt LEFT_SHIFT TILDE  &kp AMPERSAND    &kp LBKT       &kp RBKT          &kp NON_US_BSLH             &kp EQUAL  &kp KP_N4  &kp KP_N5                   &kp KP_N6                    &mt RSHFT KP_MINUS
 &mt LCTRL LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7     &kp F2     &kp UNDERSCORE              &kp KP_N1                    &kp KP_N2           &kp KP_N3   &mt RCTRL KP_PLUS
 &kp LALT              &kp LEFT_WIN                                      &kp TAB                     &kp F10    &kp SPACE  &trans                      &kp KP_N0                    &kp KP_N0           &kp KP_DOT  &kp ENTER
             >;
@@ -167,9 +167,9 @@
         Win_Functian_Layer {
             bindings = <
 &mt ESC SINGLE_QUOTE         &kp AT_SIGN      &kp POUND         &kp DOLLAR        &kp PERCENT                 &kp F1   &kp F2     &mt LEFT_PARENTHESIS F3  &mt RIGHT_PARENTHESIS F4  &kp F5
-&mt LSHFT TILDE              &kp AMPERSAND    &kp LEFT_BRACKET  &kp RBKT          &kp BSLH                    &kp F6   &kp F7     &kp F8                   &kp F9                    &kp F10
-&mt LEFT_CONTROL LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7   &kp F2     &kp F11                  &kp F12                   &kp F13  &kp F14  &mt RCTRL F7
-&kp LEFT_ALT                 &kp LEFT_WIN                                         &kp TAB                     &kp F10  &kp SPACE  &trans                   &trans                    &trans   &trans   &kp ENTER
+&mt LSHFT TILDE              &kp AMPERSAND    &kp LEFT_BRACKET  &kp RBKT          &kp BSLH                    &kp F6   &kp F7     &kp F8                   &kp F9                    &mt RSHIFT F10
+&mt LEFT_CONTROL LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN     &kp GREATER_THAN  &mt EXCLAMATION QUESTION    &kp F7   &kp F2     &kp F11                  &kp F12                   &kp F13         &kp F14  &mt RCTRL F7
+&kp LEFT_ALT                 &kp LEFT_WIN                                         &kp TAB                     &kp F10  &kp SPACE  &trans                   &trans                    &trans          &trans   &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
